@@ -1,0 +1,215 @@
+/* 每个页面相同的样式 */
+/* 版心 */
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* 顶部导航 */
+.nav {
+    background-color: #333;
+    height: 52px;
+}
+.nav ul {
+    display: flex;
+    /* 最右边 */
+    justify-content: flex-end;
+    line-height: 52px;
+    text-align: center;
+}
+.nav ul li a {
+    margin-right: 15px;
+    padding-right: 15px;
+    color: #fff;
+    border-right: 1px solid #999;
+    font-size: 14px;
+}
+.nav li:first-child a {
+    color: #5EB69C;
+}
+.nav li:last-child a {
+    
+    border-right: 0;
+}
+.nav li .iconfont {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    /* 图标与文字垂直居中 */
+    vertical-align: middle;
+}
+
+/* 头部 */
+.head {
+    height: 88px;
+    margin-top: 22px;
+    display: flex;
+}
+/* logo */
+.head .logo {
+    margin-right: 40px;
+}
+/* nav1 */
+.head .nav1 ul {
+    display: flex;
+    line-height: 88px;
+}
+.head .nav1 li {
+    margin-right: 48px;
+}
+.head .nav1 li:nth-child(2) a {
+    padding-bottom: 10px;
+    color: #5EB69C;
+    border-bottom: 2px solid #5EB69C;
+}
+/* search */
+.head .search {
+    display: flex;
+    margin-left: 27px;
+    margin-top: 33px;
+    width: 170px;
+    height: 34px;
+    
+    border-bottom: 2px solid #F4F4F4;
+}
+.head .search .iconfont {
+    margin-right: 8px;
+    font-size: 18px;
+    color: #ccc;
+    vertical-align: middle;
+}
+.head .search input::placeholder {
+    font-size: 16px;
+    color: #ccc;
+}
+/* shop */
+.head .shop {
+    position: relative;
+    margin-left: 45px;
+    margin-top: 32px;
+}
+.head .shop .iconfont {
+    font-size: 24px;
+}
+.head .shop i {
+    position: absolute;
+    right: -4px;
+    top: -1px;
+    width: 20px;
+    height: 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #E26237;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 15px;
+}
+
+/* 底部 */
+.foot {
+    background-color: #f5f5f5;
+    height: 600px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+/* service */
+.foot .service {
+    height: 178px;
+    border-bottom: 1px solid #e8e8e8;
+    
+}
+.foot .service ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot .service li {
+    display: flex;
+    width: 190px;
+    height: 58px;
+}
+.foot .service li h5 {
+    width: 58px;
+    height: 58px;
+}
+.foot .service li:nth-child(1) h5 {
+    background-image: url(../images/sprite.png);
+    background-position: 0 0;
+}
+.foot .service li:nth-child(2) h5 {
+    background-image: url(../images/sprite.png);
+    background-position: 0 -58px;
+}
+.foot .service li:nth-child(3) h5 {
+    background-image: url(../images/sprite.png);
+    background-position: 0 -116px;
+}
+.foot .service li:nth-child(4) h5 {
+    background-image: url(../images/sprite.png);
+    background-position: 0 -174px;
+}
+
+.foot .service li p {
+    margin-left: 20px;
+    line-height: 58px;
+    font-size: 28px;
+}
+/* help */
+.foot .help {
+    padding-top: 60px;
+    display: flex;
+    height: 303px;
+}
+.foot .help .left {
+    display: flex;
+}
+.foot .help .left dl {
+    margin-right: 84px;
+}
+.foot .help .left dt {
+    margin-bottom: 30px;
+    font-size: 18px;
+    width: 72px;
+    height: 25px;
+}
+.foot .help .left dd {
+    color: #969696;
+    margin-bottom: 11px;
+}
+.foot .help .left dd .iconfont {
+    color: #5EB69C;
+}
+.foot .help .right ul {
+    display: flex;
+}
+.foot .help .right li:first-child {
+    margin-right: 55px;
+    width: 120px;
+    height: 153px;
+}
+.foot .help .right li img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+.foot .help .right li p {
+    text-align: center;
+    color: #969696;
+}
+/* copyright */
+.foot .copyright {
+    padding-left: 315px;
+    height: 60px;
+}
+.foot .copyright ul {
+    display: flex;
+}
+.foot .copyright li {
+    margin-right: 5px;
+    color: #A1A1A1;
+}
+.foot .copyright p {
+    margin-top: 10px;
+    width: 611px;
+    text-align: center;
+    color: #A1A1A1;
+}

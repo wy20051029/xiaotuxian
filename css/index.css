@@ -1,0 +1,388 @@
+/* 首页内容 */
+/* banner */
+.banner {
+    height: 500px;
+    background-color: #F5F5F5;
+}
+.banner .wrapper {
+    position: relative;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+}
+.banner .wrapper .left {
+    position: absolute;
+    
+    background-color: #000;
+    opacity: 0.42;
+    width: 250px;
+    height: 500px;
+}
+
+.banner .left li {
+    
+    padding-left: 29px;
+    height: 50px;
+    width: 250px;
+}
+.banner .left a {
+    position: relative;   
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+}
+.banner .left li:nth-child(2) {
+    background-color: #00BE9A;
+}
+
+.banner .left a p {
+    margin-left: 14px;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.banner .left a .iconfont {
+    
+    position: absolute;
+    font-size: 10px;
+    right: 12px;
+}
+/* right */
+
+.banner .right  {
+    width: 3720px;
+    display: flex;
+}
+
+/* yuan */
+.banner .yuan {
+    position: absolute;
+    right: 16px;
+    bottom: 17px;
+}
+.banner .yuan ol {
+    display: flex;
+    align-items: center;
+}
+.banner .yuan li {
+    margin-right: 8px;
+    width: 14px;
+    height: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.banner .yuan li:first-child {
+    width: 22px;
+    height: 22px;
+}
+.banner .yuan li i {
+    display: block;
+    margin: 4px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+/* goods */
+/* title--公共样式 */
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 42px;
+}
+.title .left {
+    display: flex;
+}
+.title .left h3 {
+    font-size: 30px;
+    
+}
+.title .left p {
+    align-self: flex-end;
+    margin-left: 35px;
+    color: #A1A1A1;
+}
+.title .right .more {
+    color: #A1A1A1;
+    line-height: 42px;
+    
+}
+.title .right .iconfont {
+    margin-left: 10px;
+    color: #A1A1A1;
+    font-size: 12px;
+}
+.content {
+    height: 404px;
+}
+.content ul {
+    display: flex;
+    justify-content: space-between;
+}
+.content li {
+    width: 304px;
+    height: 404px;
+    background-color: #EEF9F4;
+}
+.content li a {
+    text-align: center;
+}
+.content li img {
+    width: 304px;
+    height: 304px;
+}
+.content li a h5 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.content li a p {
+    font-size: 18px;
+    color: #AA2113;
+}
+.content li a span {
+    padding-left: 5px;
+    font-size: 22px;
+    color: #AA2113;
+}
+
+
+/* recommand */
+.recommand .content li {
+    background-color: #fff;
+}
+.recommand .content a p {
+    margin-top: 15px;
+    color: #A1A1A1;
+    font-size: 16px;
+}
+
+/* brand */
+.brand {
+    margin: 60px 0;
+    background-color: #F5F5F5;
+    height: 468px;
+}
+.brand .wrapper {
+    /* 让标题文字margin生效 */
+    overflow: hidden;
+    height: 468px;
+}
+.brand .wrapper .title {
+    position: relative;
+    margin-bottom: 40px;
+}
+.brand .title .button {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+}
+.brand .title .button a {
+    margin-right: 12px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+.brand .title .button .front {
+    background-color: #ddd;
+}
+.brand .button a .iconfont {
+    color: #fff;
+}
+.brand .title .button .later {
+    background-color: #00BE9A;
+}
+.brand .content1 ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 生鲜 */
+ .title {
+    margin-bottom: 20px;
+}
+.title .right {
+    display: flex;
+}
+.title .right ul {
+    display: flex;
+}
+.title .right li {
+    display: flex;
+    align-self: center;
+}
+.title .right .active {
+    margin-right: 20px;
+    line-height: 42px;
+}
+.title .right li:first-child a {
+    color: #fff;
+    width: 46px;
+    height: 20px;
+    background-color: #00BE9A;
+    line-height: 20px;
+    text-align: center;
+    
+}
+.title .right .more {
+    margin-left: 45px;
+}
+.content2 {
+    display: flex;
+    
+}
+.content2 .left {
+    margin-right: 24px;
+    width: 248px;
+    height: 610px;
+}
+.content2 .right {
+    width: 968px;
+    height: 610px;
+}
+.content2 .right ul {
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.content2 .right li {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 21px;
+    padding-right: 21px;
+    width: 242px;
+    height: 305px;
+    border: 2px solid #fff;
+
+    /* 为了隐藏绿色cover */
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.content2 .right img {
+    width: 200px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+.content2 .right li .text {
+    width: 200px;
+    height: 57px;
+    line-height: 19px;
+    margin-bottom: 7px;
+}
+.content2 .right li span {
+    color: #AF2F22;
+}
+.content2 .right li span i {
+    font-size: 22px;
+}
+/* 悬停效果 */
+.content2 .right li .cover {
+    position: absolute;
+    bottom: -86px;
+    left: 0;
+    width: 242px;
+    height: 84px;
+    background-color: #00BE9A;
+}
+.content2 .right li .cover h4 {
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+}
+.content2 .right li .cover p {
+    text-align: center;
+    line-height: 19px;
+    font-size: 13px;
+    color: #fff;
+}
+.content2 .right li:hover .cover {
+    bottom: 0;
+}
+.content2 .right li:hover {
+    border: 2px solid #00BE9A;
+}
+
+/* 最新专题 */
+.newest {
+    margin-bottom: 40px;
+}
+.newest .title {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.content3 {
+    position: relative;
+}
+.content3 ul {
+    display: flex;
+    justify-content: space-between;
+}
+.content3 li {
+    width: 405px;
+    height: 355px;
+}
+.content3 .pic {
+    height: 288px;
+}
+.content3 .text {
+    display: flex;
+    padding: 23px 15px 24px 15px;
+    height: 67px;
+}
+.content3 .text p {
+    color: #666666;
+    font-size: 14px;
+}
+.content3 .text .ai {
+    margin-right: 20px;
+} 
+.content3 li:first-child .text .ai .iconfont {
+    color: #AF2F22;
+}
+.content3 .text .look {
+    margin-right: 214px;
+}
+/* 定位 */
+.content3 .wenzi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding: 20px 15px 14px 15px;
+    top: 198px;
+    height: 90px;
+    width: 405px;
+}
+.content3 .wenzi .left {
+    margin-right: 26px;
+    color: #fff;
+}
+.content3 .wenzi .left h4 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.content3 .wenzi .right {
+    height: 25px;
+    width: 79px;
+    background-color: #fff;
+}
+.content3 .wenzi .right p {
+    line-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #AA2113;
+}
+.content3 .wenzi .right p span {
+    font-size: 15px;
+}
