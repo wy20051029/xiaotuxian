@@ -80,12 +80,13 @@
     cursor: pointer;
 }
 
-.banner .yuan li .active {
+/* 选中之后 */
+.banner .yuan li.active {
     width: 22px;
     height: 22px;
 }
 
-.banner .yuan li i .active {
+.banner .yuan li.active i {
     display: block;
     margin: 4px;
     width: 14px;
@@ -94,9 +95,6 @@
     background-color: #fff;
 }
 
-.banner .yuan li i {
-    display: none;
-}
 
 /* goods */
 /* title--公共样式 */
